@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\glad\src\gl.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\glad\include\glad\gl.h">
+      <Filter>include\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\glad\include\KHR\khrplatform.h">
+      <Filter>include\KHR</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\glad\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{4C366E41-01F5-346D-B128-E74F4AF13C42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\KHR">
+      <UniqueIdentifier>{1AEB4B73-7173-381B-BB07-9816E6463E46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\glad">
+      <UniqueIdentifier>{3337D4E4-3F6A-3DD7-8A8E-4E292C8968E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{55C83B4E-BDA0-3AFC-9F93-C0FD088C5444}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

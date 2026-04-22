@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-subbuild/CMakeFiles/box2d-populate"
+		},
+		{
+			"file" : "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-subbuild/CMakeFiles/f889a3bd79c972ea3c212015c548cfb3/box2d-populate.rule"
+		},
+		{
+			"file" : "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-subbuild/CMakeFiles/7725e927a04a84a73613bbb32c5e9fee/box2d-populate-complete.rule"
+		},
+		{
+			"file" : "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-subbuild/CMakeFiles/8962f63977dfd953cbc725e455783208/box2d-populate-build.rule"
+		},
+		{
+			"file" : "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-subbuild/CMakeFiles/8962f63977dfd953cbc725e455783208/box2d-populate-configure.rule"
+		},
+		{
+			"file" : "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-subbuild/CMakeFiles/8962f63977dfd953cbc725e455783208/box2d-populate-download.rule"
+		},
+		{
+			"file" : "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-subbuild/CMakeFiles/8962f63977dfd953cbc725e455783208/box2d-populate-install.rule"
+		},
+		{
+			"file" : "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-subbuild/CMakeFiles/8962f63977dfd953cbc725e455783208/box2d-populate-mkdir.rule"
+		},
+		{
+			"file" : "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-subbuild/CMakeFiles/8962f63977dfd953cbc725e455783208/box2d-populate-patch.rule"
+		},
+		{
+			"file" : "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-subbuild/CMakeFiles/8962f63977dfd953cbc725e455783208/box2d-populate-test.rule"
+		},
+		{
+			"file" : "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-subbuild/CMakeFiles/8962f63977dfd953cbc725e455783208/box2d-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"box2d-populate"
+		],
+		"name" : "box2d-populate"
+	}
+}

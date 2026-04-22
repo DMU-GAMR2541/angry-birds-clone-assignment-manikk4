@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\CMakeFiles\e393afc37cfba4178171355d06497db7\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4D3CB0E2-560D-3380-B16C-FD1B5607060D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
