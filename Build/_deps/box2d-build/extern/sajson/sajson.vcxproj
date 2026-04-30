@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F0CC6C31-A258-3900-B525-BA774CD5A93A}</ProjectGuid>
+    <ProjectGuid>{B60057C2-CAC8-3771-96EE-F4370EA9BE2C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sajson.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sajson</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sajson.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sajson</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\bin\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\bin\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sajson.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sajson</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\bin\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\bin\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sajson.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sajson</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -96,10 +96,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -112,7 +112,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -131,10 +131,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -147,7 +147,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -166,10 +166,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -182,7 +182,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -200,10 +200,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -215,11 +215,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\CMakeLists.txt">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/extern/sajson/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/extern/sajson/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/extern/sajson/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/extern/sajson/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -228,11 +228,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\sajson\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\sajson\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/extern/sajson/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/extern/sajson/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/extern/sajson/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/extern/sajson/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -241,11 +241,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\sajson\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\sajson\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/extern/sajson/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/extern/sajson/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/extern/sajson/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/extern/sajson/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -254,11 +254,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\sajson\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\sajson\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/extern/sajson/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/extern/sajson/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/extern/sajson/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/extern/sajson/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -267,17 +267,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\sajson\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\sajson\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\sajson.cpp" />
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\sajson.h" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\sajson.cpp" />
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\extern\sajson\sajson.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\ZERO_CHECK.vcxproj">
-      <Project>{E27466AB-7864-307D-81A5-66BF08C2AB74}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\ZERO_CHECK.vcxproj">
+      <Project>{0BAE073F-9212-3748-B35C-0EC3D2B4FC87}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

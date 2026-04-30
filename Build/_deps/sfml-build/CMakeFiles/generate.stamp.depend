@@ -6,7 +6,7 @@ C:/Program Files/CMake/share/cmake-3.30/Modules/CPackComponent.cmake
 C:/Program Files/CMake/share/cmake-3.30/Modules/GNUInstallDirs.cmake
 C:/Program Files/CMake/share/cmake-3.30/Modules/WriteBasicConfigVersionFile.cmake
 C:/Program Files/CMake/share/cmake-3.30/Templates/CPackConfig.cmake.in
-H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/CMakeLists.txt
-H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/cmake/Config.cmake
-H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/cmake/SFMLConfig.cmake.in
-H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/cmake/SFMLConfigDependencies.cmake.in
+H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/CMakeLists.txt
+H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/cmake/Config.cmake
+H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/cmake/SFMLConfig.cmake.in
+H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/cmake/SFMLConfigDependencies.cmake.in

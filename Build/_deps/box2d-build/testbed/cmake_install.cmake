@@ -1,4 +1,4 @@
-# Install script for directory: H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/testbed
+# Install script for directory: H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/testbed
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

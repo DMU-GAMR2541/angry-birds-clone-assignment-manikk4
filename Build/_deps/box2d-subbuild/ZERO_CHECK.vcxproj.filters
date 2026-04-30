@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-subbuild\CMakeFiles\f889a3bd79c972ea3c212015c548cfb3\generate.stamp.rule">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-subbuild\CMakeFiles\92bb3b7c14215d3543a1fff65fd074b0\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{DA9E9473-BC8C-3580-85A4-53965DE09EC6}</UniqueIdentifier>
+      <UniqueIdentifier>{5A93DF40-84BD-39FE-BF5C-36ED0FC96C52}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-# Install script for directory: H:/Documents/GitHub/angry-birds-clone-assignment-manikk4
+# Install script for directory: H:/cmake/angry-birds-clone-assignment-manikk4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,17 +34,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/googletest-build/cmake_install.cmake")
+  include("H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/googletest-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/cmake_install.cmake")
+  include("H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/cmake_install.cmake")
+  include("H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -62,6 +62,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "H:/cmake/angry-birds-clone-assignment-manikk4/Build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

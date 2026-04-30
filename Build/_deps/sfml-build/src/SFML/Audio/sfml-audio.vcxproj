@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CBA5AF96-03CE-3DA9-8182-E96B42BB9A57}</ProjectGuid>
+    <ProjectGuid>{D9415A04-4DDB-3C5E-9E2D-8C009BCBFC7C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,27 +59,27 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-audio.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-audio-s-d</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-audio.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-audio-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-audio.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-audio-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-audio.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-audio-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -95,15 +95,15 @@
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Debug\sfml-audio-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Debug\sfml-audio-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,8 +116,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -134,15 +134,15 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Release\sfml-audio-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Release\sfml-audio-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -155,8 +155,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -173,15 +173,15 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\MinSizeRel\sfml-audio-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\MinSizeRel\sfml-audio-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -194,8 +194,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/dr_mp3" /external:I "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers/AL" /external:I "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/extlibs/headers"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -211,15 +211,15 @@
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\RelWithDebInfo\sfml-audio-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\RelWithDebInfo\sfml-audio-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;OV_EXCLUDE_STATIC_CALLBACKS;FLAC__NO_DLL;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\dr_mp3;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers\AL;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\extlibs\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -231,11 +231,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\CMakeLists.txt">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -243,12 +243,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -256,12 +256,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -269,12 +269,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -282,13 +282,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindFLAC.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindOpenAL.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Modules\FindVORBIS.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Audio\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\ALCheck.cpp">
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\ALCheck.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -306,8 +306,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\ALCheck.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\AlResource.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\ALCheck.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\AlResource.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -325,8 +325,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\AlResource.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\AudioDevice.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\AlResource.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\AudioDevice.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -344,9 +344,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\AudioDevice.hpp" />
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\Export.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\Listener.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\AudioDevice.hpp" />
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\Export.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\Listener.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -364,8 +364,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\Listener.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\Music.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\Listener.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\Music.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -383,8 +383,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\Music.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\Sound.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\Music.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\Sound.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -402,8 +402,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\Sound.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundBuffer.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\Sound.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundBuffer.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -421,8 +421,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundBuffer.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundBufferRecorder.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundBuffer.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundBufferRecorder.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -440,8 +440,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundBufferRecorder.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\InputSoundFile.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundBufferRecorder.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\InputSoundFile.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -459,8 +459,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\InputSoundFile.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\OutputSoundFile.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\InputSoundFile.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\OutputSoundFile.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -478,8 +478,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\OutputSoundFile.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundRecorder.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\OutputSoundFile.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundRecorder.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -497,8 +497,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundRecorder.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundSource.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundRecorder.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundSource.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -516,8 +516,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundSource.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundStream.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundSource.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundStream.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -535,8 +535,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundStream.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileFactory.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundStream.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileFactory.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -554,11 +554,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundFileFactory.hpp" />
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundFileFactory.inl" />
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundFileReader.hpp" />
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderFlac.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderFlac.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundFileFactory.hpp" />
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundFileFactory.inl" />
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundFileReader.hpp" />
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderFlac.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderFlac.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -576,8 +576,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderMp3.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderMp3.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderMp3.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderMp3.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -595,8 +595,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderOgg.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderOgg.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderOgg.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderOgg.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -614,8 +614,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderWav.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderWav.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderWav.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileReaderWav.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -633,9 +633,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundFileWriter.hpp" />
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterFlac.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterFlac.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Audio\SoundFileWriter.hpp" />
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterFlac.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterFlac.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -653,8 +653,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterOgg.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterOgg.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterOgg.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterOgg.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -672,8 +672,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterWav.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterWav.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterWav.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Audio\SoundFileWriterWav.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -693,14 +693,14 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\ZERO_CHECK.vcxproj">
-      <Project>{E27466AB-7864-307D-81A5-66BF08C2AB74}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\ZERO_CHECK.vcxproj">
+      <Project>{0BAE073F-9212-3748-B35C-0EC3D2B4FC87}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
-      <Project>{1A788084-7E5A-3A2A-9E9A-3674E628D39E}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{B094420F-C832-3B81-AA32-CE8B21083578}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
   </ItemGroup>

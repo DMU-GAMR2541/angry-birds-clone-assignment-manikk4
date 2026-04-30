@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3C622B3D-F488-3060-8D5F-72D8821139F6}</ProjectGuid>
+    <ProjectGuid>{B241212E-B0B2-39A8-B09A-C28650E4A0C9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\CMakeLists.txt">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Config.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Config.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Config.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Config.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Config.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Config.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,42 +159,42 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Config.cmake;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Templates\CPackConfig.cmake.in;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\Config.cmake;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfig.cmake.in;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\ZERO_CHECK.vcxproj">
-      <Project>{E27466AB-7864-307D-81A5-66BF08C2AB74}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\ZERO_CHECK.vcxproj">
+      <Project>{0BAE073F-9212-3748-B35C-0EC3D2B4FC87}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Audio\sfml-audio.vcxproj">
-      <Project>{CBA5AF96-03CE-3DA9-8182-E96B42BB9A57}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{D9415A04-4DDB-3C5E-9E2D-8C009BCBFC7C}</Project>
       <Name>sfml-audio</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
-      <Project>{4043C34F-3C95-3655-B920-29A364E6341D}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{14F58C3C-7FCF-394E-81D8-46CDE87E8624}</Project>
       <Name>sfml-graphics</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Main\sfml-main.vcxproj">
-      <Project>{AE3BA948-D06D-3AB4-A89C-F13AADD88ADC}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Main\sfml-main.vcxproj">
+      <Project>{4E663A96-4446-3911-8A65-12150D82D396}</Project>
       <Name>sfml-main</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Network\sfml-network.vcxproj">
-      <Project>{D834DB02-ABDE-3E5C-997D-345D9ED4BF7F}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Network\sfml-network.vcxproj">
+      <Project>{EC5D2DDB-E25B-34AA-A147-E42D0F5C3D3A}</Project>
       <Name>sfml-network</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
-      <Project>{1A788084-7E5A-3A2A-9E9A-3674E628D39E}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{B094420F-C832-3B81-AA32-CE8B21083578}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
-      <Project>{80933C0C-14CD-3C96-94F3-70FC097B9A07}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{DE8BC740-AA53-386D-81CE-B8572796F32E}</Project>
       <Name>sfml-window</Name>
     </ProjectReference>
   </ItemGroup>

@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION 3.5)
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src")
-  file(MAKE_DIRECTORY "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src")
+if(NOT EXISTS "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src")
+  file(MAKE_DIRECTORY "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src")
 endif()
 file(MAKE_DIRECTORY
-  "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build"
-  "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-subbuild/sfml-populate-prefix"
-  "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-subbuild/sfml-populate-prefix/tmp"
-  "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
-  "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-subbuild/sfml-populate-prefix/src"
-  "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
+  "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build"
+  "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-subbuild/sfml-populate-prefix"
+  "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-subbuild/sfml-populate-prefix/tmp"
+  "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
+  "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-subbuild/sfml-populate-prefix/src"
+  "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp"
 )
 
 set(configSubDirs Debug)
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

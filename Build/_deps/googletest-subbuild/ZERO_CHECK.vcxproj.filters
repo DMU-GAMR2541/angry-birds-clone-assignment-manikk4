@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\c0590b5e71eb36df3ad1d18ddfb8d0d6\generate.stamp.rule">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\cca97accffd211ecf51947f4e60f7ea0\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{B9566621-1063-3242-96C5-62179185A9DD}</UniqueIdentifier>
+      <UniqueIdentifier>{0BCB5D8D-568A-3224-8627-F51965284A40}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

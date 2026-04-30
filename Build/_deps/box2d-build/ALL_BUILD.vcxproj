@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3C622B3D-F488-3060-8D5F-72D8821139F6}</ProjectGuid>
+    <ProjectGuid>{B241212E-B0B2-39A8-B09A-C28650E4A0C9}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\CMakeLists.txt">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,11 +121,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -134,11 +134,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -147,11 +147,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/box2d-build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,45 +160,45 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\GNUInstallDirs.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\ZERO_CHECK.vcxproj">
-      <Project>{E27466AB-7864-307D-81A5-66BF08C2AB74}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\ZERO_CHECK.vcxproj">
+      <Project>{0BAE073F-9212-3748-B35C-0EC3D2B4FC87}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\src\box2d.vcxproj">
-      <Project>{75CCFC01-7ED6-3D55-B585-616CF9063ED6}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\src\box2d.vcxproj">
+      <Project>{834F41DE-62C5-3569-B8F9-597A81818D5D}</Project>
       <Name>box2d</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\glad\glad.vcxproj">
-      <Project>{1D8B324E-8D56-3B0E-8722-3B584921BE57}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\glad\glad.vcxproj">
+      <Project>{18AB6580-F316-3DD7-BA6B-0924C787AAA0}</Project>
       <Name>glad</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\glfw\glfw.vcxproj">
-      <Project>{2568B198-4E18-37E1-BB4E-034103EC73D3}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\glfw\glfw.vcxproj">
+      <Project>{FB29AA62-2B51-3FE7-89D4-79D61D4B2A9C}</Project>
       <Name>glfw</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\imgui\imgui.vcxproj">
-      <Project>{C35DCE6A-5C43-3B97-9C26-DEE225EF9227}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\imgui\imgui.vcxproj">
+      <Project>{514AB21F-C015-39E4-97C1-BB67F4E3BA51}</Project>
       <Name>imgui</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\sajson\sajson.vcxproj">
-      <Project>{F0CC6C31-A258-3900-B525-BA774CD5A93A}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\extern\sajson\sajson.vcxproj">
+      <Project>{B60057C2-CAC8-3771-96EE-F4370EA9BE2C}</Project>
       <Name>sajson</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\testbed\testbed.vcxproj">
-      <Project>{5072BCA2-F420-3727-B8E1-971FBD9F3E7B}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\testbed\testbed.vcxproj">
+      <Project>{75B8F8FD-575B-3605-A6EE-F845CEC098C0}</Project>
       <Name>testbed</Name>
     </ProjectReference>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\unit-test\unit_test.vcxproj">
-      <Project>{FA23CBDE-A42D-34BA-924A-FA9D665BCFF3}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\box2d-build\unit-test\unit_test.vcxproj">
+      <Project>{26F51031-85D8-3CDE-AD92-BFC316C4315A}</Project>
       <Name>unit_test</Name>
     </ProjectReference>
   </ItemGroup>

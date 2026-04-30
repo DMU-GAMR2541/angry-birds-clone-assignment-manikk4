@@ -1,4 +1,4 @@
-# Install script for directory: H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/googletest-src
+# Install script for directory: H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/googletest-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/googletest-build/googlemock/cmake_install.cmake")
+  include("H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/googletest-build/googlemock/cmake_install.cmake")
 
 endif()
 

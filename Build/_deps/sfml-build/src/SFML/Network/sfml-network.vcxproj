@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D834DB02-ABDE-3E5C-997D-345D9ED4BF7F}</ProjectGuid>
+    <ProjectGuid>{EC5D2DDB-E25B-34AA-A147-E42D0F5C3D3A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-network.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-network-s-d</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-network.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-network-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-network.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-network-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-network.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-network-s</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -93,15 +93,15 @@
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Debug\sfml-network-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Debug\sfml-network-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,7 +114,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -130,15 +130,15 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Release\sfml-network-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\Release\sfml-network-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -151,7 +151,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -167,15 +167,15 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\MinSizeRel\sfml-network-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\MinSizeRel\sfml-network-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -188,7 +188,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -203,15 +203,15 @@
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\RelWithDebInfo\sfml-network-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\lib\RelWithDebInfo\sfml-network-s.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include;H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -223,11 +223,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\CMakeLists.txt">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Network/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Network/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Network/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Network/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -236,11 +236,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Network/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Network/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Network/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Network/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -249,11 +249,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Network/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Network/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Network/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Network/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -262,11 +262,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Network/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Network/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SH:/Documents/GitHub/angry-birds-clone-assignment-manikk4 -BH:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Network/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SH:/cmake/angry-birds-clone-assignment-manikk4 -BH:/cmake/angry-birds-clone-assignment-manikk4/Build --check-stamp-file H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/src/SFML/Network/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -275,13 +275,13 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\Network\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\Export.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\Ftp.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\Export.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\Ftp.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -299,8 +299,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\Ftp.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\Http.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\Ftp.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\Http.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -318,8 +318,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\Http.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\IpAddress.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\Http.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\IpAddress.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -337,8 +337,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\IpAddress.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\Packet.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\IpAddress.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\Packet.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -356,8 +356,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\Packet.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\Socket.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\Packet.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\Socket.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -375,10 +375,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\Socket.hpp" />
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\SocketImpl.hpp" />
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\SocketHandle.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\SocketSelector.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\Socket.hpp" />
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\SocketImpl.hpp" />
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\SocketHandle.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\SocketSelector.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -396,8 +396,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\SocketSelector.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\TcpListener.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\SocketSelector.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\TcpListener.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -415,8 +415,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\TcpListener.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\TcpSocket.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\TcpListener.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\TcpSocket.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -434,8 +434,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\TcpSocket.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\UdpSocket.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\TcpSocket.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\UdpSocket.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -453,8 +453,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\UdpSocket.hpp" />
-    <ClCompile Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\Win32\SocketImpl.cpp">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\include\SFML\Network\UdpSocket.hpp" />
+    <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\Win32\SocketImpl.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalOptions) /w14242 /w14254 /w14263 /w14265 /w14287 /w14296 /w14311 /w14545 /w14546 /w14547 /w14549 /w14555 /w14619 /w14640 /w14826 /w14905 /w14906 /w14928</AdditionalOptions>
       <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4996;4068;4505;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4289</TreatSpecificWarningsAsErrors>
@@ -472,17 +472,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <TreatSpecificWarningsAsErrors Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">4289</TreatSpecificWarningsAsErrors>
       <WarningLevel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Level4</WarningLevel>
     </ClCompile>
-    <ClInclude Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\Win32\SocketImpl.hpp" />
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-src\src\SFML\Network\Win32\SocketImpl.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\ZERO_CHECK.vcxproj">
-      <Project>{E27466AB-7864-307D-81A5-66BF08C2AB74}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\ZERO_CHECK.vcxproj">
+      <Project>{0BAE073F-9212-3748-B35C-0EC3D2B4FC87}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
-      <Project>{1A788084-7E5A-3A2A-9E9A-3674E628D39E}</Project>
+    <ProjectReference Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{B094420F-C832-3B81-AA32-CE8B21083578}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
   </ItemGroup>

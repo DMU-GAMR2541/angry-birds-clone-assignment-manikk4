@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\f6b509731e0dcd8316ebcaaf6a36687e\googletest-populate-mkdir.rule">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\d89e3c3bd8a72219782925d8f3b0542c\googletest-populate-mkdir.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\f6b509731e0dcd8316ebcaaf6a36687e\googletest-populate-download.rule">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\d89e3c3bd8a72219782925d8f3b0542c\googletest-populate-download.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\f6b509731e0dcd8316ebcaaf6a36687e\googletest-populate-update.rule">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\d89e3c3bd8a72219782925d8f3b0542c\googletest-populate-update.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\f6b509731e0dcd8316ebcaaf6a36687e\googletest-populate-patch.rule">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\d89e3c3bd8a72219782925d8f3b0542c\googletest-populate-patch.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\f6b509731e0dcd8316ebcaaf6a36687e\googletest-populate-configure.rule">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\d89e3c3bd8a72219782925d8f3b0542c\googletest-populate-configure.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\f6b509731e0dcd8316ebcaaf6a36687e\googletest-populate-build.rule">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\d89e3c3bd8a72219782925d8f3b0542c\googletest-populate-build.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\f6b509731e0dcd8316ebcaaf6a36687e\googletest-populate-install.rule">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\d89e3c3bd8a72219782925d8f3b0542c\googletest-populate-install.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\f6b509731e0dcd8316ebcaaf6a36687e\googletest-populate-test.rule">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\d89e3c3bd8a72219782925d8f3b0542c\googletest-populate-test.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\18c27dc2db8ddc45a624cfb0b0d9c0f0\googletest-populate-complete.rule">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\469f5b9ac2207e58877d9efaf62fa718\googletest-populate-complete.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\c0590b5e71eb36df3ad1d18ddfb8d0d6\googletest-populate.rule">
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\cca97accffd211ecf51947f4e60f7ea0\googletest-populate.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeLists.txt" />
+    <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="H:\Documents\GitHub\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+    <None Include="H:\cmake\angry-birds-clone-assignment-manikk4\Build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{B9566621-1063-3242-96C5-62179185A9DD}</UniqueIdentifier>
+      <UniqueIdentifier>{0BCB5D8D-568A-3224-8627-F51965284A40}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

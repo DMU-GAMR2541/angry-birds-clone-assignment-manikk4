@@ -1,4 +1,4 @@
-# Install script for directory: H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Window
+# Install script for directory: H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-src/src/SFML/Window
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/lib/Debug/sfml-window-s-d.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/lib/Debug/sfml-window-s-d.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/lib/Release/sfml-window-s.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/lib/Release/sfml-window-s.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/lib/MinSizeRel/sfml-window-s.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/lib/MinSizeRel/sfml-window-s.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/lib/RelWithDebInfo/sfml-window-s.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/sfml-build/lib/RelWithDebInfo/sfml-window-s.lib")
   endif()
 endif()
 

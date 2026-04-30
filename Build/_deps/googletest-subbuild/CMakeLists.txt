@@ -20,8 +20,8 @@ project(googletest-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(googletest-populate
                      "UPDATE_DISCONNECTED" "False" "DOWNLOAD_EXTRACT_TIMESTAMP" "FALSE" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "URL" "https://github.com/google/googletest/archive/03597a01ee50ed33e9dfd640b249b4be3799d395.zip"
-                    SOURCE_DIR          "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/googletest-src"
-                    BINARY_DIR          "H:/Documents/GitHub/angry-birds-clone-assignment-manikk4/Build/_deps/googletest-build"
+                    SOURCE_DIR          "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/googletest-src"
+                    BINARY_DIR          "H:/cmake/angry-birds-clone-assignment-manikk4/Build/_deps/googletest-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""
