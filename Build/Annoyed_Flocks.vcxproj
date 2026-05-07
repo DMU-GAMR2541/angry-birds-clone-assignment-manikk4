@@ -93,11 +93,13 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <MinimalRebuild></MinimalRebuild>
+      <MinimalRebuild>
+      </MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SFML_STATIC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -137,11 +139,13 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <MinimalRebuild></MinimalRebuild>
+      <MinimalRebuild>
+      </MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -183,11 +187,13 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <MinimalRebuild></MinimalRebuild>
+      <MinimalRebuild>
+      </MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -230,11 +236,13 @@
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <MinimalRebuild></MinimalRebuild>
+      <MinimalRebuild>
+      </MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -327,6 +335,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\src\DynamicObject.cpp" />
     <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\src\StaticObject.cpp" />
     <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\src\main.cpp" />
+    <ClInclude Include="..\include\Pig.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Bird.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\DynamicObject.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Enemy.h" />

@@ -39,6 +39,9 @@
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\StaticObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\Pig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="H:\cmake\angry-birds-clone-assignment-manikk4\CMakeLists.txt" />
