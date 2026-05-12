@@ -4,28 +4,50 @@
 #include "DynamicObject.h"
 #pragma once
 
+enum class BirdType {
+	Blue,
+	Yellow,
+	Black
+};
+
 class Bird : public DynamicObject {
 private:
 
 	float xPos = 100.0f;
 	float yPos = 500.0f;
 	float radius = 15.0f;
+	BirdType birdType;
 
 public:
 	Bird() = default;
-	Bird(b2World& world, float xPos, float yPos, float radius, std::string sprite1) : DynamicObject(world, b2Vec2(xPos, yPos), sprite1) {
+	Bird(b2World& world, float xPos, float yPos, float radius, std::string sprite1, BirdType birdType) : DynamicObject(world, b2Vec2(xPos, yPos), sprite1) {
 
 		this->xPos = xPos;
 		this->yPos = yPos;
 		this->radius = radius;
+		this->birdType = birdType;
 
-		// dynamic ball
 		b2_circleShape.m_radius = radius / SCALE;
-		b2_ballFixture.density = 1.0f;
-		b2_ballFixture.restitution = 0.5f; // ball is bouncy
-		b2_body->CreateFixture(&b2_ballFixture);
 
-		sp_sprites.setScale(0.6f, 0.6f);
+		switch (birdType) {
+		case BirdType::Blue:
+			b2_ballFixture.density = 1.0f;
+			b2_ballFixture.restitution = 0.5f; // ball is bouncy
+			sp_sprites.setScale(0.035f, 0.035f);
+			break;
+		case BirdType::Yellow:
+			b2_ballFixture.density = 1.0f;
+			b2_ballFixture.restitution = 0.5f; // ball is bouncy
+			sp_sprites.setScale(0.045f, 0.045f);
+			break;
+		case BirdType::Black:
+			b2_ballFixture.density = 1.0f;
+			b2_ballFixture.restitution = 0.5f; // ball is bouncy
+			sp_sprites.setScale(0.045f, 0.045f);
+			break;
+		}
+
+		b2_body->CreateFixture(&b2_ballFixture);
 
 	}
 

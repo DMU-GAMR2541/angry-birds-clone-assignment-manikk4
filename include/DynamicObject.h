@@ -45,6 +45,8 @@ public:
 	sf::CircleShape& sf_ballVisual() { return circle; }
 
 	sf::RectangleShape& sf_plankVisual() { return rectangle; }
+	
+	b2Body* getBody() { return b2_body; }
 
 protected:
 

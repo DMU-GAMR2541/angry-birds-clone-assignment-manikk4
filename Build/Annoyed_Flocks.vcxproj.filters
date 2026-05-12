@@ -24,10 +24,10 @@
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\GameObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Ground.h">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Non-interactable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Non-interactable.h">
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Pig.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Plank.h">
@@ -39,7 +39,7 @@
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\StaticObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\Pig.h">
+    <ClInclude Include="..\include\ContactListener.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

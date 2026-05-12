@@ -338,6 +338,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\GameObject.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Ground.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Non-interactable.h" />
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Pig.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Plank.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Slingshot.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\StaticObject.h" />

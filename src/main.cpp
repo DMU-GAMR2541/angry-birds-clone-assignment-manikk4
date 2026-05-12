@@ -7,6 +7,8 @@
 #include "Non-Interactable.h"
 #include <iostream>
 #include <vector>
+#include "ContactListener.h"
+#include <set>
 #include <list>
 
 int main() {
@@ -20,35 +22,48 @@ int main() {
     b2Vec2 b2_gravity(0.0f, 9.8f);
     b2World world(b2_gravity);
 
+    // Create the listener instance.
+    ContactListener c;
+
+    // Register it with the world
+    world.SetContactListener(&c);
+
     // static objects
-    Bird bird(world, 100.0f, 500.0f, 15.0f, "../assets/Ang_Birds/pp1.png");
-    Plank plank(world, 500.0f, 450.0f, 10.0f, 60.0f, "../assets/Ang_Birds/plank.png");
-    Wall wall(world, 750.0f, 500.0f, 10.0f, 80.0f);
+    Plank plank(world, 500.0f, 560.0f, 10.0f, 60.0f, "../assets/Ang_Birds/plank.png");
     Ground ground(world, 400.0f, 590.0f, 400.0f, 10.0f);
 
-    // spawn mutiple pigs
-    //std::vector<float> pigX = { 480.0f, 530.0f, 505.0f, 620.0f, 670.0f };
-    //std::vector<float> pigY = { 555.0f, 555.0f, 495.0f, 555.0f, 555.0f };
-
-
+    std::vector<std::shared_ptr<Wall>> NonInteractableWall;
     std::vector<std::shared_ptr<Pig>> pigs;
     std::list<std::shared_ptr<Bird>> birds;
+    std::vector<std::string> birdTexture = { "../assets/Ang_Birds/blue.png", "../assets/Ang_Birds/yellow.png", "../assets/Ang_Birds/black.png" };
 
     for (int i = 0; i < 3; i++) {
-        pigs.emplace_back(std::make_shared<Pig>(world, (500.0f + (i * 20.0f)), 350.0f, 15.0f, "../assets/Ang_Birds/red1.png"));
+        BirdType birdtype;
+        if (i == 0) { birdtype = BirdType::Blue; }
+        else if (i == 1) { birdtype = BirdType::Yellow; }
+        else { birdtype = BirdType::Black; }
+        birds.emplace_back(std::make_shared<Bird>(world, (100.0f - (i * 40.0f)), 560.0f, 15.0f, birdTexture[i], birdtype));
+    }
+
+    for (auto& bird : birds) {
+        bird->getBody()->GetUserData().pointer = 100;
     }
 
     for (int i = 0; i < 3; i++) {
-        birds.emplace_back(std::make_shared<Bird>(world, (100.0f + (i * 20.0f)), 500.0f, 15.0f, "../assets/Ang_Birds/pp1.png"));
+        auto pig = std::make_shared<Pig>(world, (550.0f - (i * 150.0f)), 560.0f, 15.0f, "../assets/Ang_Birds/pp1.png");
+        pig->getBody()->GetUserData().pointer = 3 + i;
+        pigs.push_back(pig);
     }
-
+    
+    NonInteractableWall.push_back(std::make_shared<Wall>(world, 750.0f, 500.0f, 10.0f, 80.0f));
+  
     // --- 4. MAIN LOOP ---
     while (window.isOpen()) {
         sf::Event event;
         while (window.pollEvent(event)) {
             if (event.type == sf::Event::Closed)
                 window.close();
-
+             
             if (event.type == sf::Event::KeyPressed) {
                     
                 auto& currentBird = birds.front();
@@ -62,6 +77,7 @@ int main() {
                 }
 
                 if (event.key.code == sf::Keyboard::B) {
+                    world.DestroyBody(birds.front()->getBody());
                     birds.pop_front();
                 }
             }
@@ -70,12 +86,34 @@ int main() {
         // physics 
         world.Step(1.0f / 60.0f, 8, 3);
 
+        std::set<uintptr_t> s_p = c.getPointer(); //Set of pointers to the pig ID's
+        for (auto pigIt = pigs.begin(); pigIt != pigs.end(); ) {
+
+            uintptr_t currentPigID = (*pigIt)->getBody()->GetUserData().pointer;
+
+            // Check if this pig's ID exists in the hit list
+            if (s_p.find(currentPigID) != s_p.end()) { //Check through all of the container for specific Id's
+
+                std::cout << currentPigID << " Destroyed" << std::endl;
+
+                // Remove from Box2D world first
+                world.DestroyBody((*pigIt)->getBody()); //Remove the pig body from the world.
+
+                // Update the iterator by catching the return value of erase()
+                pigIt = pigs.erase(pigIt); //Erase the pig from the set.
+
+
+            }
+            else {
+                // Only increment if we didn't erase anything
+                ++pigIt;
+            }
+        }
+
         // update
-         //bird.Update();
         plank.Update();
         ground.Update();
-        wall.Update();
-
+        
         for (auto pigItr = pigs.begin(); pigItr != pigs.end(); ++pigItr) {
             auto& pig = *pigItr;
             pig->Update();
@@ -86,13 +124,15 @@ int main() {
             bird->Update();
         }
 
+        for (auto wallItr = NonInteractableWall.begin(); wallItr != NonInteractableWall.end(); ++wallItr) {
+            auto& wall = *wallItr;
+            wall->Update();
+        }
+
         // render
         window.clear(sf::Color(135, 206, 235));
-
         plank.render(window);
-        //bird.render(window);
         ground.render(window);
-        wall.render(window);
 
         for (auto pigItr = pigs.begin(); pigItr != pigs.end(); ++pigItr) {
             auto& pig = *pigItr;
@@ -102,6 +142,10 @@ int main() {
         for (auto birdsItr = birds.begin(); birdsItr != birds.end(); ++birdsItr) {
             auto& bird = *birdsItr;
             bird->render(window);
+        }
+        for (auto wallItr = NonInteractableWall.begin(); wallItr != NonInteractableWall.end(); ++wallItr) {
+            auto& wall = *wallItr;
+            wall->render(window);
         }
 
         window.display();

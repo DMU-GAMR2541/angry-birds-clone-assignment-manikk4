@@ -28,7 +28,7 @@ public:
 		b2_ballFixture.friction = 0.3f;
 		b2_body->CreateFixture(&b2_ballFixture);
 
-		sp_sprites.setScale(0.1f, 0.1f);
+		sp_sprites.setScale(0.6f, 0.6f);
 
 	}
 
