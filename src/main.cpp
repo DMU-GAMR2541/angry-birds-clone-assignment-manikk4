@@ -76,6 +76,21 @@ int main() {
                     }
                 }
 
+                if (event.key.code == sf::Keyboard::A) {
+                    if (!birds.empty()) {
+                        auto& currentBird = birds.front();
+                        auto newBirds = currentBird->useAbility(world);
+
+                        if (!newBirds.empty()) {
+                            auto insertPos = birds.begin();
+                            ++insertPos; // position after front
+                            for (auto& nb : newBirds) {
+                                birds.insert(insertPos, nb);
+                            }
+                        }
+                    }
+                }
+
                 if (event.key.code == sf::Keyboard::B) {
                     world.DestroyBody(birds.front()->getBody());
                     birds.pop_front();
