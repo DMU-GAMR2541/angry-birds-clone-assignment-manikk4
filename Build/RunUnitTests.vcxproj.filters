@@ -15,6 +15,9 @@
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Bird.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\ContactListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\DynamicObject.h">
       <Filter>Header Files</Filter>
     </ClInclude>

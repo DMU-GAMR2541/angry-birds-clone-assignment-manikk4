@@ -4,31 +4,58 @@
 #include <iostream>
 #include "DynamicObject.h"
 
+enum class PigType {
+	Crown,
+	Pot,
+	Big,
+	Small
+};
+
+ 
 class Pig : public DynamicObject {
 private:
 
 	float xPos = 100.0f;
 	float yPos = 500.0f;
 	float radius = 15.0f;
+	PigType pigType;
 
 public:
 	Pig() = default;
-	Pig(b2World& world, float xPos, float yPos, float radius, std::string sprite1) : DynamicObject(world, b2Vec2(xPos, yPos), sprite1) {
+	Pig(b2World& world, float xPos, float yPos, float radius, std::string sprite1, PigType pigType) : DynamicObject(world, b2Vec2(xPos, yPos), sprite1) {
 
 		this->xPos = xPos;
 		this->yPos = yPos;
 		this->radius = radius;
+		this->pigType = pigType;
 
 		// dynamic ball
 		b2_circleShape.m_radius = radius / SCALE;
 
-		b2_ballFixture.shape = &b2_circleShape;
-		b2_ballFixture.density = 1.0f;
-		b2_ballFixture.restitution = 0.5f; // ball is bouncy
-		b2_ballFixture.friction = 0.3f;
-		b2_body->CreateFixture(&b2_ballFixture);
+		switch (pigType) {
+		case PigType::Small:
+			b2_ballFixture.density = 1.0f;
+			b2_ballFixture.restitution = 0.5f;
+			sp_sprites.setScale(0.4f, 0.4f);
+			break;
+		case PigType::Big:
+			b2_ballFixture.density = 1.0f;
+			b2_ballFixture.restitution = 0.5f;
+			sp_sprites.setScale(0.09f, 0.09f);
+			break;
+		case PigType::Pot:
+			b2_ballFixture.density = 1.0f;
+			b2_ballFixture.restitution = 0.5f;
+			sp_sprites.setScale(0.095f, 0.095f);
+			break;
+		case PigType::Crown:
+			b2_ballFixture.density = 1.0f;
+			b2_ballFixture.restitution = 0.5f;
+			sp_sprites.setScale(0.095f, 0.095f);
+			break;
+		}
 
-		sp_sprites.setScale(0.6f, 0.6f);
+		b2_body->CreateFixture(&b2_ballFixture);
 
 	}
 

@@ -333,6 +333,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Bird.h" />
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\ContactListener.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\DynamicObject.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Enemy.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\GameObject.h" />

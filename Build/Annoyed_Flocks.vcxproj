@@ -335,11 +335,13 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\src\DynamicObject.cpp" />
     <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\src\StaticObject.cpp" />
     <ClCompile Include="H:\cmake\angry-birds-clone-assignment-manikk4\src\main.cpp" />
-    <ClInclude Include="..\include\ContactListener.h" />
+    <ClInclude Include="..\include\Catapult.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Bird.h" />
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\ContactListener.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\DynamicObject.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Enemy.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\GameObject.h" />
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Ground.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Non-interactable.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Pig.h" />
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Plank.h" />
