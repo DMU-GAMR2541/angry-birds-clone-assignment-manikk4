@@ -19,6 +19,7 @@ private:
 	float yPos = 500.0f;
 	float radius = 15.0f;
 	PigType pigType;
+	int pigHealth;
 
 public:
 	Pig() = default;
@@ -28,7 +29,6 @@ public:
 		this->yPos = yPos;
 		this->radius = radius;
 		this->pigType = pigType;
-
 		// dynamic ball
 		b2_circleShape.m_radius = radius / SCALE;
 
@@ -37,21 +37,25 @@ public:
 			b2_ballFixture.density = 1.0f;
 			b2_ballFixture.restitution = 0.5f;
 			sp_sprites.setScale(0.4f, 0.4f);
+			pigHealth = 10;
 			break;
 		case PigType::Big:
 			b2_ballFixture.density = 1.0f;
 			b2_ballFixture.restitution = 0.5f;
 			sp_sprites.setScale(0.09f, 0.09f);
+			pigHealth = 15;
 			break;
 		case PigType::Pot:
 			b2_ballFixture.density = 1.0f;
 			b2_ballFixture.restitution = 0.5f;
 			sp_sprites.setScale(0.095f, 0.095f);
+			pigHealth = 20;
 			break;
 		case PigType::Crown:
 			b2_ballFixture.density = 1.0f;
 			b2_ballFixture.restitution = 0.5f;
 			sp_sprites.setScale(0.095f, 0.095f);
+			pigHealth = 25;
 			break;
 		}
 

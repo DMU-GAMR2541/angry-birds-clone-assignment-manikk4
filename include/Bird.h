@@ -20,6 +20,7 @@ private:
     BirdType birdType;
     bool abilityUsed = false;
     bool Dragging = false;
+    bool isHit = false;
     sf::Clock bombTime;
     float BombDeletionTimer = -1.0f;
     sf::Vector2f startPos;

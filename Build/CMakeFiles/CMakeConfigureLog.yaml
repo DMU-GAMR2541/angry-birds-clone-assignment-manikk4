@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.40+3e7442088 for .NET Framework
-      Build started 13/05/2026 09:03:57.
+      Build started 14/05/2026 09:55:10.
       
       Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\3.30.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.52
+      Time Elapsed 00:00:01.85
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.40+3e7442088 for .NET Framework
-      Build started 13/05/2026 09:03:59.
+      Build started 14/05/2026 09:55:12.
       
       Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\3.30.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.76
+      Time Elapsed 00:00:01.07
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-psfbt7"
-      binary: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-psfbt7"
+      source: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-ws9w82"
+      binary: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-ws9w82"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-psfbt7'
+        Change Dir: 'H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-ws9w82'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bdf5f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6306c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 13/05/2026 09:04:00.
+        Build started 14/05/2026 09:55:14.
         
-        Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-psfbt7\\cmTC_bdf5f.vcxproj" on node 1 (default targets).
+        Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ws9w82\\cmTC_6306c.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_bdf5f.dir\\Debug\\".
+          Creating directory "cmTC_6306c.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-psfbt7\\Debug\\".
-          Creating directory "cmTC_bdf5f.dir\\Debug\\cmTC_bdf5f.tlog\\".
+          Creating directory "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ws9w82\\Debug\\".
+          Creating directory "cmTC_6306c.dir\\Debug\\cmTC_6306c.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_bdf5f.dir\\Debug\\cmTC_bdf5f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_bdf5f.dir\\Debug\\cmTC_bdf5f.tlog\\unsuccessfulbuild".
+          Creating "cmTC_6306c.dir\\Debug\\cmTC_6306c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6306c.dir\\Debug\\cmTC_6306c.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bdf5f.dir\\Debug\\\\" /Fd"cmTC_bdf5f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6306c.dir\\Debug\\\\" /Fd"cmTC_6306c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bdf5f.dir\\Debug\\\\" /Fd"cmTC_bdf5f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6306c.dir\\Debug\\\\" /Fd"cmTC_6306c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-psfbt7\\Debug\\cmTC_bdf5f.exe" /INCREMENTAL /ILK:"cmTC_bdf5f.dir\\Debug\\cmTC_bdf5f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-psfbt7/Debug/cmTC_bdf5f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-psfbt7/Debug/cmTC_bdf5f.lib" /MACHINE:X64  /machine:x64 cmTC_bdf5f.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_bdf5f.vcxproj -> H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-psfbt7\\Debug\\cmTC_bdf5f.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ws9w82\\Debug\\cmTC_6306c.exe" /INCREMENTAL /ILK:"cmTC_6306c.dir\\Debug\\cmTC_6306c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-ws9w82/Debug/cmTC_6306c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-ws9w82/Debug/cmTC_6306c.lib" /MACHINE:X64  /machine:x64 cmTC_6306c.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_6306c.vcxproj -> H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ws9w82\\Debug\\cmTC_6306c.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_bdf5f.dir\\Debug\\cmTC_bdf5f.tlog\\unsuccessfulbuild".
-          Touching "cmTC_bdf5f.dir\\Debug\\cmTC_bdf5f.tlog\\cmTC_bdf5f.lastbuildstate".
-        Done Building Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-psfbt7\\cmTC_bdf5f.vcxproj" (default targets).
+          Deleting file "cmTC_6306c.dir\\Debug\\cmTC_6306c.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6306c.dir\\Debug\\cmTC_6306c.tlog\\cmTC_6306c.lastbuildstate".
+        Done Building Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ws9w82\\cmTC_6306c.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.82
+        Time Elapsed 00:00:00.92
         
       exitCode: 0
   -
@@ -210,8 +210,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-h5ewbr"
-      binary: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-h5ewbr"
+      source: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-jzpwwx"
+      binary: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-jzpwwx"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -221,40 +221,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-h5ewbr'
+        Change Dir: 'H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-jzpwwx'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_27d91.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ae745.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 13/05/2026 09:04:02.
+        Build started 14/05/2026 09:55:16.
         
-        Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h5ewbr\\cmTC_27d91.vcxproj" on node 1 (default targets).
+        Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jzpwwx\\cmTC_ae745.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_27d91.dir\\Debug\\".
+          Creating directory "cmTC_ae745.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h5ewbr\\Debug\\".
-          Creating directory "cmTC_27d91.dir\\Debug\\cmTC_27d91.tlog\\".
+          Creating directory "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jzpwwx\\Debug\\".
+          Creating directory "cmTC_ae745.dir\\Debug\\cmTC_ae745.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_27d91.dir\\Debug\\cmTC_27d91.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_27d91.dir\\Debug\\cmTC_27d91.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ae745.dir\\Debug\\cmTC_ae745.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ae745.dir\\Debug\\cmTC_ae745.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27d91.dir\\Debug\\\\" /Fd"cmTC_27d91.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae745.dir\\Debug\\\\" /Fd"cmTC_ae745.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27d91.dir\\Debug\\\\" /Fd"cmTC_27d91.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae745.dir\\Debug\\\\" /Fd"cmTC_ae745.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h5ewbr\\Debug\\cmTC_27d91.exe" /INCREMENTAL /ILK:"cmTC_27d91.dir\\Debug\\cmTC_27d91.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-h5ewbr/Debug/cmTC_27d91.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-h5ewbr/Debug/cmTC_27d91.lib" /MACHINE:X64  /machine:x64 cmTC_27d91.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_27d91.vcxproj -> H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h5ewbr\\Debug\\cmTC_27d91.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jzpwwx\\Debug\\cmTC_ae745.exe" /INCREMENTAL /ILK:"cmTC_ae745.dir\\Debug\\cmTC_ae745.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-jzpwwx/Debug/cmTC_ae745.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-jzpwwx/Debug/cmTC_ae745.lib" /MACHINE:X64  /machine:x64 cmTC_ae745.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_ae745.vcxproj -> H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jzpwwx\\Debug\\cmTC_ae745.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_27d91.dir\\Debug\\cmTC_27d91.tlog\\unsuccessfulbuild".
-          Touching "cmTC_27d91.dir\\Debug\\cmTC_27d91.tlog\\cmTC_27d91.lastbuildstate".
-        Done Building Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-h5ewbr\\cmTC_27d91.vcxproj" (default targets).
+          Deleting file "cmTC_ae745.dir\\Debug\\cmTC_ae745.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ae745.dir\\Debug\\cmTC_ae745.tlog\\cmTC_ae745.lastbuildstate".
+        Done Building Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jzpwwx\\cmTC_ae745.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.98
+        Time Elapsed 00:00:00.99
         
       exitCode: 0
   -
@@ -297,8 +297,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-ps0ycd"
-      binary: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-ps0ycd"
+      source: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-zcyej8"
+      binary: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-zcyej8"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -306,40 +306,40 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-ps0ycd'
+        Change Dir: 'H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-zcyej8'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e8d77.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c0e4b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 13/05/2026 09:04:09.
+        Build started 14/05/2026 09:55:25.
         
-        Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ps0ycd\\cmTC_e8d77.vcxproj" on node 1 (default targets).
+        Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zcyej8\\cmTC_c0e4b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_e8d77.dir\\Debug\\".
+          Creating directory "cmTC_c0e4b.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ps0ycd\\Debug\\".
-          Creating directory "cmTC_e8d77.dir\\Debug\\cmTC_e8d77.tlog\\".
+          Creating directory "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zcyej8\\Debug\\".
+          Creating directory "cmTC_c0e4b.dir\\Debug\\cmTC_c0e4b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_e8d77.dir\\Debug\\cmTC_e8d77.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_e8d77.dir\\Debug\\cmTC_e8d77.tlog\\unsuccessfulbuild".
+          Creating "cmTC_c0e4b.dir\\Debug\\cmTC_c0e4b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c0e4b.dir\\Debug\\cmTC_c0e4b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8d77.dir\\Debug\\\\" /Fd"cmTC_e8d77.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ps0ycd\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c0e4b.dir\\Debug\\\\" /Fd"cmTC_c0e4b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zcyej8\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8d77.dir\\Debug\\\\" /Fd"cmTC_e8d77.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ps0ycd\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c0e4b.dir\\Debug\\\\" /Fd"cmTC_c0e4b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zcyej8\\src.c"
           src.c
-        H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ps0ycd\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ps0ycd\\cmTC_e8d77.vcxproj]
-        Done Building Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ps0ycd\\cmTC_e8d77.vcxproj" (default targets) -- FAILED.
+        H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zcyej8\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zcyej8\\cmTC_c0e4b.vcxproj]
+        Done Building Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zcyej8\\cmTC_c0e4b.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ps0ycd\\cmTC_e8d77.vcxproj" (default target) (1) ->
+        "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zcyej8\\cmTC_c0e4b.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ps0ycd\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ps0ycd\\cmTC_e8d77.vcxproj]
+          H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zcyej8\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zcyej8\\cmTC_c0e4b.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.41
+        Time Elapsed 00:00:00.45
         
       exitCode: 1
   -
@@ -353,8 +353,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-rzpat5"
-      binary: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-rzpat5"
+      source: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-a9xu58"
+      binary: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-a9xu58"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -362,42 +362,42 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-rzpat5'
+        Change Dir: 'H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-a9xu58'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bb6f2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6e1cd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 13/05/2026 09:04:10.
+        Build started 14/05/2026 09:55:26.
         
-        Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rzpat5\\cmTC_bb6f2.vcxproj" on node 1 (default targets).
+        Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-a9xu58\\cmTC_6e1cd.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_bb6f2.dir\\Debug\\".
+          Creating directory "cmTC_6e1cd.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rzpat5\\Debug\\".
-          Creating directory "cmTC_bb6f2.dir\\Debug\\cmTC_bb6f2.tlog\\".
+          Creating directory "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-a9xu58\\Debug\\".
+          Creating directory "cmTC_6e1cd.dir\\Debug\\cmTC_6e1cd.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_bb6f2.dir\\Debug\\cmTC_bb6f2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_bb6f2.dir\\Debug\\cmTC_bb6f2.tlog\\unsuccessfulbuild".
+          Creating "cmTC_6e1cd.dir\\Debug\\cmTC_6e1cd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6e1cd.dir\\Debug\\cmTC_6e1cd.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb6f2.dir\\Debug\\\\" /Fd"cmTC_bb6f2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rzpat5\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e1cd.dir\\Debug\\\\" /Fd"cmTC_6e1cd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-a9xu58\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb6f2.dir\\Debug\\\\" /Fd"cmTC_bb6f2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rzpat5\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e1cd.dir\\Debug\\\\" /Fd"cmTC_6e1cd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-a9xu58\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rzpat5\\Debug\\cmTC_bb6f2.exe" /INCREMENTAL /ILK:"cmTC_bb6f2.dir\\Debug\\cmTC_bb6f2.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-rzpat5/Debug/cmTC_bb6f2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-rzpat5/Debug/cmTC_bb6f2.lib" /MACHINE:X64  /machine:x64 cmTC_bb6f2.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rzpat5\\cmTC_bb6f2.vcxproj]
-        Done Building Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rzpat5\\cmTC_bb6f2.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-a9xu58\\Debug\\cmTC_6e1cd.exe" /INCREMENTAL /ILK:"cmTC_6e1cd.dir\\Debug\\cmTC_6e1cd.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-a9xu58/Debug/cmTC_6e1cd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-a9xu58/Debug/cmTC_6e1cd.lib" /MACHINE:X64  /machine:x64 cmTC_6e1cd.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-a9xu58\\cmTC_6e1cd.vcxproj]
+        Done Building Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-a9xu58\\cmTC_6e1cd.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rzpat5\\cmTC_bb6f2.vcxproj" (default target) (1) ->
+        "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-a9xu58\\cmTC_6e1cd.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rzpat5\\cmTC_bb6f2.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-a9xu58\\cmTC_6e1cd.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.54
+        Time Elapsed 00:00:00.71
         
       exitCode: 1
   -
@@ -411,8 +411,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-qcfhyc"
-      binary: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-qcfhyc"
+      source: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-m7l4m9"
+      binary: "H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-m7l4m9"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -420,42 +420,42 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-qcfhyc'
+        Change Dir: 'H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-m7l4m9'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ddc0d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1de2b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 13/05/2026 09:04:11.
+        Build started 14/05/2026 09:55:28.
         
-        Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-qcfhyc\\cmTC_ddc0d.vcxproj" on node 1 (default targets).
+        Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m7l4m9\\cmTC_1de2b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_ddc0d.dir\\Debug\\".
+          Creating directory "cmTC_1de2b.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-qcfhyc\\Debug\\".
-          Creating directory "cmTC_ddc0d.dir\\Debug\\cmTC_ddc0d.tlog\\".
+          Creating directory "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m7l4m9\\Debug\\".
+          Creating directory "cmTC_1de2b.dir\\Debug\\cmTC_1de2b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_ddc0d.dir\\Debug\\cmTC_ddc0d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_ddc0d.dir\\Debug\\cmTC_ddc0d.tlog\\unsuccessfulbuild".
+          Creating "cmTC_1de2b.dir\\Debug\\cmTC_1de2b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1de2b.dir\\Debug\\cmTC_1de2b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ddc0d.dir\\Debug\\\\" /Fd"cmTC_ddc0d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-qcfhyc\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1de2b.dir\\Debug\\\\" /Fd"cmTC_1de2b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m7l4m9\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.38.33145 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ddc0d.dir\\Debug\\\\" /Fd"cmTC_ddc0d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-qcfhyc\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1de2b.dir\\Debug\\\\" /Fd"cmTC_1de2b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m7l4m9\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-qcfhyc\\Debug\\cmTC_ddc0d.exe" /INCREMENTAL /ILK:"cmTC_ddc0d.dir\\Debug\\cmTC_ddc0d.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-qcfhyc/Debug/cmTC_ddc0d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-qcfhyc/Debug/cmTC_ddc0d.lib" /MACHINE:X64  /machine:x64 cmTC_ddc0d.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-qcfhyc\\cmTC_ddc0d.vcxproj]
-        Done Building Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-qcfhyc\\cmTC_ddc0d.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m7l4m9\\Debug\\cmTC_1de2b.exe" /INCREMENTAL /ILK:"cmTC_1de2b.dir\\Debug\\cmTC_1de2b.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-m7l4m9/Debug/cmTC_1de2b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/cmake/angry-birds-clone-assignment-manikk4/Build/CMakeFiles/CMakeScratch/TryCompile-m7l4m9/Debug/cmTC_1de2b.lib" /MACHINE:X64  /machine:x64 cmTC_1de2b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m7l4m9\\cmTC_1de2b.vcxproj]
+        Done Building Project "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m7l4m9\\cmTC_1de2b.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-qcfhyc\\cmTC_ddc0d.vcxproj" (default target) (1) ->
+        "H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m7l4m9\\cmTC_1de2b.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-qcfhyc\\cmTC_ddc0d.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [H:\\cmake\\angry-birds-clone-assignment-manikk4\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-m7l4m9\\cmTC_1de2b.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.53
+        Time Elapsed 00:00:00.80
         
       exitCode: 1
 ...

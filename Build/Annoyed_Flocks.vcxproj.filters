@@ -15,6 +15,9 @@
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Bird.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\Catapult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\ContactListener.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -43,9 +46,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="H:\cmake\angry-birds-clone-assignment-manikk4\include\StaticObject.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\Catapult.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
